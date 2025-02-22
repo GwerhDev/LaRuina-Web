@@ -6,7 +6,10 @@
   width: 100%;
   display: none;
   justify-content: flex-start;
-  overflow: hidden;
+  align-items: flex-start;
+  padding-inline: 1rem;
+  padding: 1rem;
+  padding-inline: 2rem;
 }
 
 .logo {
@@ -15,7 +18,6 @@
   display: flex;
   flex-direction: column;
   gap: 0;
-
   p {
     margin: 0;
     padding: 0;
@@ -81,7 +83,7 @@ input {
   }
 }
 
-.profile-pic {
+.profile-pic{
   width: 100%;
   border: solid;
   border-width: 2px;
