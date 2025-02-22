@@ -1,45 +1,43 @@
 export const menuList: Array<any> = [
   {
     label: "Servicios",
-    url: null,
     submenu: [
       {
         label: "Estudio de Grabación",
         description: "Grabación, Mezcla y Masterización",
-        url: "/records"
+        route: "/records"
       }, {
         label: "Back&Amp",
         description: "Backline y Amplificación para eventos",
-        url: "/back-amp"
+        route: "/back-amp"
       }, {
         label: "Sala de Ensayo",
         description: "Accede a nuestros planes con tu banda",
-        url: "/sala-de-ensayo"
+        route: "/sala-de-ensayo"
       }
     ]
   }, {
     label: "Aplicaciones",
-    url: null,
     submenu: [
       {
         label: "Nhexa TV",
         description: "Streaming",
-        url: "#"
+        href: "#"
       }, {
         label: "Nhexa Play",
         description: "Audio y música",
-        url: "#"
+        href: "#"
       }, {
         label: "Nhexa Merch",
         description: "E-commerce",
-        url: "#"
+        href: "#"
       }
     ]
   }, {
     label: "Soporte técnico",
-    url: "#",
+    href: "#",
   }, {
     label: "Contacto",
-    url: "/contact",
+    route: "/contact",
   }
 ];
