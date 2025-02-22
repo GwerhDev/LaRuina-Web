@@ -6,10 +6,7 @@
   width: 100%;
   display: none;
   justify-content: flex-start;
-  align-items: flex-start;
-  padding-inline: 1rem;
-  padding: 1rem;
-  padding-inline: 2rem;
+  overflow: hidden;
 }
 
 .logo {
@@ -114,7 +111,7 @@ input {
     display: none;
     flex-direction: column;
     padding: 1rem;
-
+    overflow: hidden;
   }
 
   .searcher-container {
