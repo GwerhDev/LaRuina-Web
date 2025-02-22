@@ -1,31 +1,36 @@
-
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 
   width: 100vw;
   height: 100vh;
   overflow: hidden;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: var(--components-background);
+  background: linear-gradient(168deg, var(--secondary-background-color) 20%, var(--primary-background-color) 120%);
+  background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  --primary-color: #5b282f;
-  --primary-hover-color: #b5964f;
-  --primary-background-color: #171717;
-  --secondary-color: #a08851;
-  --secondary-hover-color: #5c5136;
+
+  --nhexa-white: rgb(229, 229, 229);
+  --primary-color: #ffa28fbc;
+  --primary-hover-color: #b87269;
+  --primary-background-color: #95215b;
+  --secondary-background-color: #171717;
+  --secondary-semitransparent-background-color: #171717bc;
+  --button-primary-color: #95215b;
+  --menu-hover-color: #860746b6;
+  --button-primary-hover-color: #c60e58;
   --components-background: #1b1b1bba;
+
+  color: var(--nhexa-white);
 }
 
 @media (max-width: 1080px) {
