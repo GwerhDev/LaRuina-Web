@@ -5,6 +5,8 @@
   display: flex;
   flex-direction: column;
 
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -29,12 +31,4 @@
   --menu-hover-color: #860746b6;
   --button-primary-hover-color: #c60e58;
   --components-background: #1b1b1bba;
-
-  color: var(--nhexa-white);
-}
-
-@media (max-width: 1080px) {
-  :root {
-    padding: 0;
-  }
 }
